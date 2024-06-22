@@ -6,4 +6,4 @@ pluginManagement {
     }
 }
 
-include(":app-client", ":app-server")
+include(":app-client", ":app-server", ":ui")
