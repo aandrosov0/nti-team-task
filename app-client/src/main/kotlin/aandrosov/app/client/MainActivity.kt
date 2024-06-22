@@ -1,5 +1,5 @@
 package aandrosov.app.client
 
-import android.app.Activity
+import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : Activity()
+class MainActivity : AppCompatActivity()
