@@ -1,5 +1,6 @@
 plugins {
     kotlin("android") version "2.0.0"
+    kotlin("plugin.compose") version "2.0.0"
     id("com.android.application") version "8.5.0"
 }
 
@@ -20,6 +21,10 @@ android {
 
         versionCode = 1
         versionName = "1.0"
+    }
+
+    buildFeatures {
+        compose = true
     }
 
     buildTypes {
