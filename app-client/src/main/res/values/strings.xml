@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Client</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="scan_list">Scan List</string>
+    <string name="config">Config</string>
 </resources>
