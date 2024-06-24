@@ -1,7 +1,6 @@
-package aandrosov.app.client.ui.components
+package aandrosov.app.ui.components
 
-import aandrosov.app.client.R
-import androidx.compose.foundation.layout.fillMaxSize
+import aandrosov.app.ui.R
 import androidx.compose.material3.Button
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -45,7 +44,6 @@ fun ExpandButton(
     ) {
         val id = if (expanded) R.drawable.expand_less else R.drawable.expand_more
         Icon(
-            modifier = Modifier.fillMaxSize(),
             painter = painterResource(id = id),
             contentDescription = null
         )
