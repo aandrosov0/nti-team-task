@@ -1,6 +1,6 @@
-package aandrosov.app.client.ui.components
+package aandrosov.app.ui.components
 
-import aandrosov.app.client.R
+import aandrosov.app.ui.R
 import androidx.compose.material3.Icon
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
